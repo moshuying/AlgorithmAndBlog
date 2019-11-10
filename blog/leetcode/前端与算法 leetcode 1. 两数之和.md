@@ -15,7 +15,7 @@
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 ```
-[350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+[1. 两数之和](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-java-jsshi-xian-shi-jian-fu-za-du/)
 
 ## 概要
 这道题的意思其实就是找一个`target-nums[i]`的值,而hashMap在这方面很擅长,复杂度最差也是O1
@@ -51,10 +51,10 @@ var twoSum = function(nums, target) {
 };
 ```
 
-## 传入`[1, 2], [11, 1, 2, 3, 2]`的运行结果
+## 传入`[2,7,11,1,12,34,4,15],19`的运行结果
 
 ```sh
-[ 1, 2 ]
+[1,4]
 ```
 
 ## 执行结果
@@ -67,5 +67,3 @@ var twoSum = function(nums, target) {
 ## GitHub仓库
 
 [1. 两数之和](https://github.com/moshuying/leetcode-cn/blob/master/leetcode/1.%20Two%20Sum/index.js)
-<!-- ## 引用列表 -->
-<!-- leetcode,leetcode-cn,[J],350. 两个数组的交集 II, -->
