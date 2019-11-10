@@ -4,7 +4,7 @@
 
 ## 题目描述
 
-[350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+[]()
 
 ## 概要
 
@@ -22,10 +22,10 @@
 
 ```
 
-## 传入`[1, 2], [11, 1, 2, 3, 2]`的运行结果
+## 传入``的运行结果
 
 ```sh
-[ 1, 2 ]
+
 ```
 
 ## 执行结果
@@ -37,6 +37,4 @@
 
 ## GitHub仓库
 
-[350. 两个数组的交集 II](https://github.com/moshuying/leetcode-cn/blob/master/leetcode/350.%20Intersection%20of%20Two%20Arrays%20II/index.js)
-<!-- ## 引用列表 -->
-<!-- leetcode,leetcode-cn,[J],350. 两个数组的交集 II, -->
+[]()
