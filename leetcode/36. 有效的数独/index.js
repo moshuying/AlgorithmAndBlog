@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-10 22:25:48
- * @LastEditTime :2019-11-11 12:55:40
+ * @LastEditTime :2019-11-11 13:03:15
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -17,9 +17,9 @@
 var isValidSudoku = function (board) {
     let [rows, columns, boxes] = [[], [], []];
     for (let i = 0; i < 9; i++) {
-        rows[i] = {};
-        columns[i] = {};
-        boxes[i] = {};
+        rows[i] = {};// 行数据
+        columns[i] = {}; // 列数据
+        boxes[i] = {}; // 小宫格
     }
     // const fun = (r, x, y) => (r[x][y] ? r[x][y]++ : (r[x][y] = 1));
     for (let i = 0; i < board.length; i++) {
@@ -28,7 +28,7 @@ var isValidSudoku = function (board) {
             if (num !== '.') {
                 let n = parseInt(num, 10);
                 // js中1/3*3计算结果为1 但是按理说应该是0.999无限(浮点误差) 而java中1/3*3则取值为0,浮点数默认舍去0
-                let boxix = Math.floor(Math.floor((i / 3)) * 3) + Math.floor(j / 3);
+                let boxix = Math.floor((i / 3)) * 3 + Math.floor(j / 3);
                 // fun(rows, i, n);
                 // fun(columns, j, n);
                 // fun(boxes, boxix, n);
