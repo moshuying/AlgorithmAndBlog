@@ -310,7 +310,7 @@ module.exports = {
     "func-names": 0,
     // 文件末尾强制换行
     "eol-last": 2,
-    indent: [2, 4, { SwitchCase: 1 }],
+    indent: [2, 2, { SwitchCase: 1 }],
     // 强制在对象字面量的属性中键和值之间使用一致的间距
     "key-spacing": [2, { beforeColon: false, afterColon: true }],
     // 强制使用一致的换行风格
