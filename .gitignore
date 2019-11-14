@@ -1,3 +1,4 @@
 node_modules
-leetcode/*/main.exe
-leetcode/*/main.class
+algorithm/leetcode/*/main.exe
+algorithm/leetcode/*/main.class
+algorithm/javaout
