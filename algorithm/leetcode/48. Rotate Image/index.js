@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-11 13:29:03
- * @LastEditTime :2019-11-11 13:41:47
+ * @LastEditTime :2019-11-14 11:17:19
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -54,5 +54,4 @@ var rotate = function (matrix) {
 let temp = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 rotate(temp);
 console.log(temp);
-// 执行用时 :60 ms, 在所有 javascript 提交中击败了90.96%的用户
-// 内存消耗 :33.4 MB, 在所有 javascript 提交中击败了95.92%的用户
+
