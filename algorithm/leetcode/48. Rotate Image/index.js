@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-11 13:29:03
- * @LastEditTime :2019-11-14 11:17:19
+ * @LastEditTime :2019-11-14 11:30:17
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -25,7 +25,7 @@ var rotate = function (matrix) {
   // }
   // matrix.length = 0;
   // matrix.push(...changeRow); // 重写
-  // 原数组操作
+  // 在单次循环中旋转 4 个矩形
   let len = matrix.length - 1;
   for (let row = 0;row < len / 2;row++) {
     for (let col = row;col < len - row;col++) {
@@ -36,7 +36,7 @@ var rotate = function (matrix) {
       matrix[col][len - row] = tmp;
     }
   }
-  // 官方题解
+  // 转置加翻转
   // let len = matrix.length;
   // // 转置矩阵
   // for (let i = 0;i < len;i++) {
