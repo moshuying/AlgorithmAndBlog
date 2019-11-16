@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-10 19:19:51
- * @LastEditTime :2019-11-16 12:03:16
+ * @LastEditTime :2019-11-16 12:05:05
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -24,3 +24,4 @@ var findMedianSortedArrays = function (nums1, nums2) {
     return (temp[parseInt((temp.length - 1) / 2, 10)] + temp[parseInt((temp.length - 1) / 2, 10) + 1]) / 2;
   }
 };
+console.log(findMedianSortedArrays([1, 3], [2]));
