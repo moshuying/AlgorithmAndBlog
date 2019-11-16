@@ -36,6 +36,6 @@ output:
 内存消耗 :37.2 MB, 在所有 javascript 提交中击败了5.10%的用户
 ```
 
-## GitHub仓库
+### GitHub仓库
 
 []()
