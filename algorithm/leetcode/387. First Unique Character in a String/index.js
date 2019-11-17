@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-17 19:10:43
- * @LastEditTime :2019-11-17 19:36:55
+ * @LastEditTime :2019-11-17 19:48:12
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -14,6 +14,7 @@
  * @return {number}
  */
 var firstUniqChar = function (s) {
+  // 解法二
   if (s === '' || s.length < 1) {return -1;}
   let set = new Set();
   for (let i = 0 ;i < s.length;i++) {
@@ -25,14 +26,15 @@ var firstUniqChar = function (s) {
     }
   }
   return -1;
+  // 解法一
   // if (s === '' || s.length < 1) {return -1;}
-  // let map = new Set();
+  // let map = {};
   // for (let i = 0 ;i < s.length;i++) {
   //   map[s[i]] === undefined ? map[s[i]] = 0 : map[s[i]]++;
   // }
   // for (const key in map) {
   //   if (map[key] === 0) {
-  //     return s.indexOf(key) === undefined ? 0 : s.indexOf(key);
+  //     return s.indexOf(key);
   //   }
   // }
   // return -1;
