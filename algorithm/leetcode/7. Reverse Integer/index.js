@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-16 12:02:51
- * @LastEditTime :2019-11-16 20:55:49
+ * @LastEditTime :2019-11-17 19:01:02
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -21,4 +21,6 @@ var reverse = function (x) {
   }
   return (ans >= (2 ** 31) || ans <= -(2 ** 31)) ? 0 : ans;
 };
-console.log(reverse(1534236469));
+console.time('~~');
+reverse(1534236464549);
+console.timeEnd('~~');
