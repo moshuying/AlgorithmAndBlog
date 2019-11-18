@@ -2,7 +2,7 @@
  * @Description :墨抒颖
  * @Author :墨抒颖
  * @Date :2019-11-17 19:53:40
- * @LastEditTime :2019-11-18 08:22:09
+ * @LastEditTime :2019-11-18 08:31:46
  * @LastEditors :墨抒颖
  * @Github :https://github.com/moshuying
  * @Gitee :https://gitee.com/moshuying
@@ -15,6 +15,7 @@
  * @return {boolean}
  */
 var isAnagram = function (s, t) {
+  // 哈希法
   // if (s.length !== t.length) {return false;}
   // let map = new Map();
   // for (let i = 0;i < s.length;i++) {
@@ -35,5 +36,18 @@ var isAnagram = function (s, t) {
     if (kmap[i] !== 0) {return false;}
   }
   return true;
+  // 解法三
+  // if (s.length !== t.length) return false
+  // let o = new Array(26).fill(0)
+  // for (let i = 0; i < s.length; i++) {
+  //   o[s[i].charCodeAt(0) - 97]++
+  // }
+  // let p = new Array(26).fill(0)
+  // for (let i = 0; i < t.length; i++) {
+  //   p[t[i].charCodeAt(0) - 97]++
+  // }
+  // o = o.toString()
+  // p = p.toString()
+  // return o === p
 };
 console.log(isAnagram('anagram', 'nagaram'));
