@@ -96,4 +96,4 @@ output:true
 
 ### GitHub仓库
 
-[242. 有效的字母异位词]()
+[242. 有效的字母异位词](https://github.com/moshuying/AlgorithmAndBlog/blob/master/algorithm/leetcode/242.%20Valid%20Anagram/index.js)
