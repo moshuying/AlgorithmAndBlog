@@ -67,4 +67,4 @@ output:321
 
 ### GitHub仓库
 
-[7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog/blob/master/algorithm/leetcode/7.%20Reverse%20Integer/index.js)
+[7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog)

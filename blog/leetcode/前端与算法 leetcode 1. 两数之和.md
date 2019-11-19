@@ -66,4 +66,4 @@ var twoSum = function(nums, target) {
 
 ## GitHub仓库
 
-[1. 两数之和](https://github.com/moshuying/leetcode-cn/blob/master/leetcode/1.%20Two%20Sum/index.js)
+[1. 两数之和](https://github.com/moshuying/leetcode-cn/)
