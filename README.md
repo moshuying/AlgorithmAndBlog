@@ -23,6 +23,19 @@
 学而不思则罔,思而不学则怠,学的越多越深刻感受到这句话的重要性,这里记录日常开发中遇到的坑,时不时会打开看看
 
 </details>
+
+关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/leetcode)进入算法笔记
+
+<details>
+
+<summary>后端部分</summary>
+
+因为个人比较偏好liunx系统做一些操作,命令行是个很好用的东西,所以也会有liunx的一些笔记,不过研究的比较浅[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/liunx)进入liunx笔记
+
+后端目前对python和php以及nodejs较为熟悉,php很久没有使用了,可能会渐渐废弃,目前用nodejs稍多一点
+还有一些开源框架的使用心得包含一些框架的bug呀,深坑之类的可以去看我的博客,也可以直接搜索目录,大多数bug都能百度到不过有的bug情况特殊,不仅报错信息冗长复杂,百度也很难以解决,这里对我遇到的一些bug进行了详细的记录同时也记下了很多解决方法,有的博客对文章名字长度有限制,可以看看这里的记录
+</details>
+
 <details>
 <summary>前端与算法部分</summary>
 
@@ -30,18 +43,15 @@
 
 已完成的题目列表
 
+[查看所有已完成题目列表](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/leetcode)
+
 | 题目| 难度 | 标签 |
 | --- | --- | --- |
-| [1. 两数之和](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%201.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |  **中等** | **数组** |
-| [7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%207.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.md) | **中等** | **数组** |
+| [1. 两数之和](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%201.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |  **简单** | **数组** |
+| [7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%207.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.md) | **简单** | **数组** |
+| [26. 删除排序数组中的重复项](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2026.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | **简单** | **数组** |
+
 
 </details>
 
-关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/leetcode)进入算法笔记
-
-因为个人比较偏好liunx系统做一些操作,命令行是个很好用的东西,所以也会有liunx的一些笔记,不过研究的比较浅[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/liunx)进入liunx笔记
-
-后端目前对python和php以及nodejs较为熟悉,php很久没有使用了,可能会渐渐废弃,目前用nodejs稍多一点
-
-还有一些开源框架的使用心得包含一些框架的bug呀,深坑之类的可以去看我的博客,也可以直接搜索目录,大多数bug都能百度到不过有的bug情况特殊,不仅报错信息冗长复杂,百度也很难以解决,这里对我遇到的一些bug进行了详细的记录同时也记下了很多解决方法,有的博客对文章名字长度有限制,可以看看这里的记录
 
