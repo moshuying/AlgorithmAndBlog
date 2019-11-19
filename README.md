@@ -1,5 +1,6 @@
 # 算法和笔记
 ---
+[访问不流畅点这里,两个仓库完全同步](https://gitee.com/moshuying/AlgorithmAndBlog)
 # 简介
 
 这里记录了前端中遇到的坑,学过的知识,当然不仅仅包含前端,因为现在前端开始全能化,有界面的无界面的都在做.所以这里或许什么都有
@@ -23,6 +24,7 @@
 学而不思则罔,思而不学则怠,学的越多越深刻感受到这句话的重要性,这里记录日常开发中遇到的坑,时不时会打开看看
 
 关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/leetcode)进入算法笔记
+
 </details>
 
 <details>
