@@ -65,6 +65,6 @@ output:321
 内存消耗 :35.8 MB, 在所有 javascript 提交中击败了36.81%的用户
 ```
 
-### GitHub仓库
+### GitHub仓库 
 
 [7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog)
