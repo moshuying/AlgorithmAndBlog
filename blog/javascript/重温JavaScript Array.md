@@ -57,10 +57,11 @@ Array.length // arr中元素的数量 默认为1
 Array.prototype // Array的属性和方法
 ```
 
->**需要注意 Array是一个函数,而\[\]是一个对象,通常把\[\]的方法c称为数组方法,Array称为Array对象**Array作为函数有constructor方法,数组没有
+>**需要注意 Array是一个函数,而\[\]是一个对象,通常把\[\]的方法称为数组方法,Array称为Array对象**Array作为函数有constructor方法,数组没有
 
 ## Array对象方法
 
+### from() 从一个类似数组或可迭代对象创建一个新的,浅拷贝的数组实例
 ### pop() 	删除并返回数组的最后一个元素
 
 ### push() 	向数组的末尾添加一个或更多元素，并返回新的长度。
