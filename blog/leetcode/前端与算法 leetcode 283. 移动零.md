@@ -83,7 +83,7 @@ var moveZeroes = function (nums) {
 
 ## GitHub仓库
 
-[350. 两个数组的交集 II](https://github.com/moshuying/leetcode-cn/blob/master/leetcode/350.%20Intersection%20of%20Two%20Arrays%20II/index.js)
+[350. 两个数组的交集 II](https://github.com/moshuying/AlgorithmAndBlog)
 <!-- ## 引用列表 -->
 <!-- leetcode,leetcode-cn,[J],283. 两个数组的交集 II, -->
 [1]:https://leetcode-cn.com/problems/move-zeroes/solution/yi-dong-ling-by-leetcode/
