@@ -54,7 +54,19 @@
 |[vscode保存代码，自动按照eslint规范格式化代码设置](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/vscode%E4%BF%9D%E5%AD%98%E4%BB%A3%E7%A0%81%EF%BC%8C%E8%87%AA%E5%8A%A8%E6%8C%89%E7%85%A7eslint%E8%A7%84%E8%8C%83%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E8%AE%BE%E7%BD%AE.md)|
 |[详解 ESLint 规则](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/%E8%AF%A6%E8%A7%A3%20ESLint%20%E8%A7%84%E5%88%99.md)|
 </details>
+<details>
 
+<summary>版本控制</summary>
+
+## git
+目前仅学习了git将来项目需要或者有更好的版本管理器就再学新的
+文章内的内容仅够日常使用,出了问题可能还得百度..
+
+|版本控制已完成部分|
+| --- |
+|[git常用小操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%93%8D%E4%BD%9C.md)|
+|[git基本操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)|
+</details>
 <details>
 
 <summary>后端部分</summary>
@@ -96,19 +108,6 @@ liunx我用的比较多,但是没有系统的去学习这些操作,部署项目�
 |python|
 |---|
 |[Python3 获取任意贴吧 最新帖子 以及获取后制作 词云图详细教程 python3数据写入](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/python/Python3%20%E8%8E%B7%E5%8F%96%E4%BB%BB%E6%84%8F%E8%B4%B4%E5%90%A7%20%E6%9C%80%E6%96%B0%E5%B8%96%E5%AD%90%20%E4%BB%A5%E5%8F%8A%E8%8E%B7%E5%8F%96%E5%90%8E%E5%88%B6%E4%BD%9C%20%E8%AF%8D%E4%BA%91%E5%9B%BE%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%20python3%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5.md)|
-</details>
-<details>
-
-<summary>版本控制</summary>
-
-## git
-目前仅学习了git将来项目需要或者有更好的版本管理器就再学新的
-文章内的内容仅够日常使用,出了问题可能还得百度..
-
-|版本控制已完成部分|
-| --- |
-|[git常用小操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%93%8D%E4%BD%9C.md)|
-|[git基本操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)|
 </details>
 
 ## 前端与算法部分
