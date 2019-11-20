@@ -5,6 +5,7 @@
 
 这里记录了前端中遇到的坑,学过的知识,当然不仅仅包含前端,因为现在前端开始全能化,有界面的无界面的都在做.所以这里或许什么都有
 
+有些操作已经是习惯了,比如git两个仓库同步,主要是因为github很多时候访问真的非常慢,配置好后
 # 小目标?
 
 写日志和博客是我长久以来的习惯了,也会一直保持下去,不用担心会弃坑,只要我还在从事计算机方面的工作,这个博客就不会不更新,只是会改改名字,比如叫后端心得笔记?前后端心得笔记?硬件及前后端心得笔记?
@@ -13,22 +14,45 @@
 
 哈哈,反正不用担心弃坑啦,也欢迎各位大神帅哥美女不吝啬手里的小星星,对你有帮助是我更新最大的动力,欢迎提issues指出问题,也欢迎正确的求助方式
 
+## 我的其他开源项目
+### ddinit 一个钉钉的前端SDK
+可以直接`npm install ddinit`安装
+[文档点击这里](https://github.com/moshuying/ddinit)
+
 ## 博客分类
 
 博客中的东西就稍微杂乱一些了,包含了很多开发中遇到的问题
 
 <details>
 
-<summary>日志和笔记</summary>
+<summary>js日志和笔记</summary>
 
+# JavaScript部分
 学而不思则罔,思而不学则怠,学的越多越深刻感受到这句话的重要性,这里记录日常开发中遇到的坑,时不时会打开看看
 
 关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/javascript)进入算法笔记
-|已完成的笔记|
+|已完成的JavaScript笔记|
 | --- |
 | [前端与编译原理 用js去运行js代码 js2run](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/js2run%20%E7%94%A8js%E5%8E%BB%E8%BF%90%E8%A1%8Cjs%E4%BB%A3%E7%A0%81.md)|
 |[JavaScript闭包使用姿势指南](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/JavaScript%E9%97%AD%E5%8C%85%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF%E6%8C%87%E5%8D%97.md)|
 |[javascript 解决默认取整的坑(目前已知的最佳解决方案)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/javascript%20%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E5%8F%96%E6%95%B4%E7%9A%84%E5%9D%91(%E7%9B%AE%E5%89%8D%E5%B7%B2%E7%9F%A5%E7%9A%84%E6%9C%80%E4%BD%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88).md)|
+# vue
+有些是使用过程中出现的bug,有些是使用心得
+不过它作为一个框架来说,用熟了,然后研究一下实现原理就更好了
+|vue|
+|---|
+|[vue 首次加载缓慢 刷新后加载缓慢 原因及解决方案](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue%20%E9%A6%96%E6%AC%A1%E5%8A%A0%E8%BD%BD%E7%BC%93%E6%85%A2%20%E5%88%B7%E6%96%B0%E5%90%8E%E5%8A%A0%E8%BD%BD%E7%BC%93%E6%85%A2%20%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)|
+|[vue+ Mock.js 生成随机数据,拦截 Ajax 请求](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue%2B%20Mock.js%20%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%8D%AE%2C%E6%8B%A6%E6%88%AA%20Ajax%20%E8%AF%B7%E6%B1%82.md)|
+|[vue-cli 3.x 创建项目失败解决方案](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue-cli%203.x%20%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)|
+# vscode
+前端开发神器,当代程序员手中的vim,不多哔哔
+
+|vscode|
+| --- |
+|[VSCode 使用Settings Sync同步配置(最新版傻瓜教程)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/VSCode%20%E4%BD%BF%E7%94%A8Settings%20Sync%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE(%E6%9C%80%E6%96%B0%E7%89%88%E5%82%BB%E7%93%9C%E6%95%99%E7%A8%8B).md)|
+|[VSCode 远程开发(带免密)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/VSCode%20%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91(%E5%B8%A6%E5%85%8D%E5%AF%86).md)|
+|[vscode保存代码，自动按照eslint规范格式化代码设置](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/vscode%E4%BF%9D%E5%AD%98%E4%BB%A3%E7%A0%81%EF%BC%8C%E8%87%AA%E5%8A%A8%E6%8C%89%E7%85%A7eslint%E8%A7%84%E8%8C%83%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E8%AE%BE%E7%BD%AE.md)|
+|[详解 ESLint 规则](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vscode/%E8%AF%A6%E8%A7%A3%20ESLint%20%E8%A7%84%E5%88%99.md)|
 </details>
 
 <details>
@@ -40,15 +64,48 @@
 后端目前对python和php以及nodejs较为熟悉,php很久没有使用了,可能会渐渐废弃,目前用nodejs稍多一点
 
 还有一些开源框架的使用心得包含一些框架的bug呀,深坑之类的可以去看我的博客,也可以直接搜索目录,大多数bug都能百度到不过有的bug情况特殊,不仅报错信息冗长复杂,百度也很难以解决,这里对我遇到的一些bug进行了详细的记录同时也记下了很多解决方法,有的博客对文章名字长度有限制,可以看看这里的记录
+
+## liunx
+
+liunx我用的比较多,但是没有系统的去学习这些操作,部署项目和基本的系统管理够了就没再深入了解,更多的是直接部署环境之类的
+
+|liunx|
+| --- |
+|[centos7 安装docker 手动和脚本安装 换源  卸载](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/centos7%20%E5%AE%89%E8%A3%85docker%20%E6%89%8B%E5%8A%A8%E5%92%8C%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%20%E6%8D%A2%E6%BA%90%20%20%E5%8D%B8%E8%BD%BD.md)|
+|[liunx的一些bug解决办法](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/liunx%E7%9A%84%E4%B8%80%E4%BA%9Bbug%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%20.md)|
+|[liunx下远程anaconda 搭建](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/liunx%E4%B8%8B%E8%BF%9C%E7%A8%8Banaconda%20%E6%90%AD%E5%BB%BA.md)|
+|[screen命令详解](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/screen%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3.md)|
+|[Ubuntu apache安装,配置,卸载](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/Ubuntu%20apache%E5%AE%89%E8%A3%85%2C%E9%85%8D%E7%BD%AE%2C%E5%8D%B8%E8%BD%BD.md)|
+|[ubuntu更新源](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/ubuntu%E6%9B%B4%E6%96%B0%E6%BA%90.md)|
+|[阿里云云盾清除](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%91%E7%9B%BE%E6%B8%85%E9%99%A4.md)|
+|[在liunx上安装taiga](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/liunx/%E5%9C%A8liunx%E4%B8%8A%E5%AE%89%E8%A3%85taiga.md)|
+
+## docker
+
+高性能容器怎么能不学习呢,偶尔搭个小环境也是用的到的
+
+|docker|
+|---|
+|[docker 给运行中的容器添加映射端口](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/docker/docker%20%E7%BB%99%E8%BF%90%E8%A1%8C%E4%B8%AD%E7%9A%84%E5%AE%B9%E5%99%A8%E6%B7%BB%E5%8A%A0%E6%98%A0%E5%B0%84%E7%AB%AF%E5%8F%A3.md)|
+|[docker安装hadoop](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/docker/docker%E5%AE%89%E8%A3%85hadoop.md)|
+|[docker基本操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/docker/docker%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)|
+## python
+
+对于python我没有深入学习,仅仅拿它做了一些小程序,因为学习曲线非常平缓,感觉就是拿来就能用的东西,所有关于它的学习笔记比较少,而且爬虫又容易去局里喝茶,很多东西写了也不会发出来...
+
+|python|
+|---|
+|[Python3 获取任意贴吧 最新帖子 以及获取后制作 词云图详细教程 python3数据写入](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/python/Python3%20%E8%8E%B7%E5%8F%96%E4%BB%BB%E6%84%8F%E8%B4%B4%E5%90%A7%20%E6%9C%80%E6%96%B0%E5%B8%96%E5%AD%90%20%E4%BB%A5%E5%8F%8A%E8%8E%B7%E5%8F%96%E5%90%8E%E5%88%B6%E4%BD%9C%20%E8%AF%8D%E4%BA%91%E5%9B%BE%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%20python3%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5.md)|
 </details>
 <details>
 
 <summary>版本控制</summary>
 
+## git
 目前仅学习了git将来项目需要或者有更好的版本管理器就再学新的
 文章内的内容仅够日常使用,出了问题可能还得百度..
-完成的文章目录
-|版本控制|
+
+|版本控制已完成部分|
 | --- |
 |[git常用小操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%93%8D%E4%BD%9C.md)|
 |[git基本操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)|
