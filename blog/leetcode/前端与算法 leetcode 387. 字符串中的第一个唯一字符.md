@@ -41,7 +41,7 @@ var firstUniqChar = function (s) {
   if (s === '' || s.length < 1) {return -1;}
   let set = new Set();
   for (let i = 0 ;i < s.length;i++) {
-    // position,可选。从当前字符串的哪个索引位置开始搜寻子字符串，默认值为0。
+    // includes第二个参数可选。从当前字符串的哪个索引位置开始搜寻子字符串，默认值为0。
     if (!s.includes(s[i], i + 1) && !set.has(s[i])) {
       return i;
     } else {
@@ -79,6 +79,11 @@ output:5
 内存消耗 :37.9 MB, 在所有 javascript 提交中击败了48.47%的用户
 ```
 
+
 ### GitHub仓库
 
-[387. 字符串中的第一个唯一字符]()
+[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog)
+
+### 查看更多
+
+[查看更多题解](http://sfau.lt/bPbzVVJ)
