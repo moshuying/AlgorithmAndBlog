@@ -139,6 +139,7 @@ liunx我用的比较多,但是没有系统的去学习这些操作,部署项目�
 | [344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |  **简单** | **双指针,字符串** |
 | [350. 两个数组的交集 II](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) |  **简单** | **排序,哈希,双指针,二分查找** |
 | [387. 字符串中的第一个唯一字符](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |  **简单** | **哈希表,字符串** |
+|[前端与算法 leetcode 125. 验证回文串](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md)|**简单**|**双指针,字符串**|
 
 
 
