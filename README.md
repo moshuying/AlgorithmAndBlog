@@ -41,6 +41,18 @@
 
 还有一些开源框架的使用心得包含一些框架的bug呀,深坑之类的可以去看我的博客,也可以直接搜索目录,大多数bug都能百度到不过有的bug情况特殊,不仅报错信息冗长复杂,百度也很难以解决,这里对我遇到的一些bug进行了详细的记录同时也记下了很多解决方法,有的博客对文章名字长度有限制,可以看看这里的记录
 </details>
+<details>
+
+<summary>版本控制</summary>
+
+目前仅学习了git将来项目需要或者有更好的版本管理器就再学新的
+文章内的内容仅够日常使用,出了问题可能还得百度..
+完成的文章目录
+|版本控制|
+| --- |
+|[git常用小操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%93%8D%E4%BD%9C.md)|
+|[git基本操作](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/version%20control/git/git%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.md)|
+</details>
 
 ## 前端与算法部分
 
