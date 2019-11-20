@@ -51,6 +51,17 @@
 | [1. 两数之和](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%201.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |  **简单** | **数组** |
 | [7. 整数反转](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%207.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.md) | **简单** | **数组** |
 | [26. 删除排序数组中的重复项](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2026.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) | **简单** | **数组** |
+| [27.移除元素](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2027.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | **简单** | **数组** |
+| [28.实现 strStr() ](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2028.%E5%AE%9E%E7%8E%B0%20strStr()%20.md) |  **简单** | **双指针,字符串** |
+| [36. 有效的数独](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2036.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC%20.md) |  **中等** | **哈希表** |
+| [48. 旋转图像](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) |  **中等** | **数组** |
+| [66. 加一](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%2066.%20%E5%8A%A0%E4%B8%80.md) |  **简单** | **数组** |
+| [leetcode 189. 旋转数组](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20189.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md) |  **简单** | **数组** |
+| [242. 有效的字母异位词](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20242.%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |  **简单** | **排序,哈希表** |
+| [283. 移动零](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) |  **简单** | **数组,双指针** |
+| [344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |  **简单** | **双指针,字符串** |
+| [350. 两个数组的交集 II](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) |  **简单** | **排序,哈希,双指针,二分查找** |
+| [387. 字符串中的第一个唯一字符](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |  **简单** | **哈希表,字符串** |
 
 
 
