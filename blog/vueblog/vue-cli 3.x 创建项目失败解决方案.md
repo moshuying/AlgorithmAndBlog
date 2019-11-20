@@ -1,4 +1,5 @@
 # @vue/cli 3.x 创建项目失败解决方案
+> 已经提了issues但暂未回复或解决
 ## 报错信息
 
 > command failed: yarn --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist
