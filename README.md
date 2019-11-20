@@ -23,8 +23,12 @@
 
 学而不思则罔,思而不学则怠,学的越多越深刻感受到这句话的重要性,这里记录日常开发中遇到的坑,时不时会打开看看
 
-关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/leetcode)进入算法笔记
-
+关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/javascript)进入算法笔记
+|已完成的笔记|
+| --- |
+| [前端与编译原理 用js去运行js代码 js2run](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/js2run%20%E7%94%A8js%E5%8E%BB%E8%BF%90%E8%A1%8Cjs%E4%BB%A3%E7%A0%81.md)|
+|[JavaScript闭包使用姿势指南](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/JavaScript%E9%97%AD%E5%8C%85%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF%E6%8C%87%E5%8D%97.md)|
+|[javascript 解决默认取整的坑(目前已知的最佳解决方案)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/javascript%20%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E5%8F%96%E6%95%B4%E7%9A%84%E5%9D%91(%E7%9B%AE%E5%89%8D%E5%B7%B2%E7%9F%A5%E7%9A%84%E6%9C%80%E4%BD%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88).md)|
 </details>
 
 <details>
