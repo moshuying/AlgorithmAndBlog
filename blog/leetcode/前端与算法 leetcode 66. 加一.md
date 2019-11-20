@@ -47,10 +47,7 @@ var plusOne = function(digits) {
     digits[i] = digits[i] % 10
     if (digits[i] !== 0) return digits
   }
-  digits = new Array(digits.length + 1)
-  for (let i = 1; i < digits.length; i++) {
-    digits[i] = 0
-  }
+  digits = new Array(digits.length + 1).fill(0)
   digits[0] = 1
   return digits
   // 解法2
@@ -78,3 +75,6 @@ var plusOne = function(digits) {
 执行用时 :44 ms, 在所有 javascript 提交中击败了100.00% 的用户
 内存消耗 :33.7 MB, 在所有 javascript 提交中击败了33.81%的用户
 ```
+## GitHub仓库
+
+[48. 旋转图像](https://github.com/moshuying/AlgorithmAndBlog/)
