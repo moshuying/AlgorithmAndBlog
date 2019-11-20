@@ -14,7 +14,7 @@
 
 哈哈,反正不用担心弃坑啦,也欢迎各位大神帅哥美女不吝啬手里的小星星,对你有帮助是我更新最大的动力,欢迎提issues指出问题,也欢迎正确的求助方式
 
-## 我的其他开源项目
+## 其他开源项目
 ### ddinit 一个钉钉的前端SDK
 可以直接`npm install ddinit`安装
 [文档点击这里](https://github.com/moshuying/ddinit)
@@ -28,23 +28,28 @@
 <summary>js日志和笔记</summary>
 
 # JavaScript部分
+
 学而不思则罔,思而不学则怠,学的越多越深刻感受到这句话的重要性,这里记录日常开发中遇到的坑,时不时会打开看看
 
 关于算法方面目前在刷leetcode一边做项目(还没有找到合适的工作)一遍刷,保持一周2-4次的频率吧,项目要紧可能会减慢[点击这里](https://github.com/moshuying/AlgorithmAndBlog/tree/master/blog/javascript)进入算法笔记
-|已完成的JavaScript笔记|
+
+| 已完成的JavaScript笔记 |
 | --- |
 | [前端与编译原理 用js去运行js代码 js2run](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/js2run%20%E7%94%A8js%E5%8E%BB%E8%BF%90%E8%A1%8Cjs%E4%BB%A3%E7%A0%81.md)|
 |[JavaScript闭包使用姿势指南](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/JavaScript%E9%97%AD%E5%8C%85%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF%E6%8C%87%E5%8D%97.md)|
 |[javascript 解决默认取整的坑(目前已知的最佳解决方案)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/javascript/javascript%20%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E5%8F%96%E6%95%B4%E7%9A%84%E5%9D%91(%E7%9B%AE%E5%89%8D%E5%B7%B2%E7%9F%A5%E7%9A%84%E6%9C%80%E4%BD%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88).md)|
 # vue
+
 有些是使用过程中出现的bug,有些是使用心得
 不过它作为一个框架来说,用熟了,然后研究一下实现原理就更好了
-|vue|
-|---|
+
+| vue |
+| --- |
 |[vue 首次加载缓慢 刷新后加载缓慢 原因及解决方案](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue%20%E9%A6%96%E6%AC%A1%E5%8A%A0%E8%BD%BD%E7%BC%93%E6%85%A2%20%E5%88%B7%E6%96%B0%E5%90%8E%E5%8A%A0%E8%BD%BD%E7%BC%93%E6%85%A2%20%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)|
 |[vue+ Mock.js 生成随机数据,拦截 Ajax 请求](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue%2B%20Mock.js%20%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%8D%AE%2C%E6%8B%A6%E6%88%AA%20Ajax%20%E8%AF%B7%E6%B1%82.md)|
 |[vue-cli 3.x 创建项目失败解决方案](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/vue/vue-cli%203.x%20%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)|
 # vscode
+
 前端开发神器,当代程序员手中的vim,不多哔哔
 
 |vscode|
