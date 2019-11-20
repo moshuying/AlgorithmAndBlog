@@ -44,3 +44,7 @@ const removeElement = (nums, val) => {
 执行用时 :64 ms, 在所有 javascript 提交中击败了91.87% 的用户
 内存消耗 :33.7 MB, 在所有 javascript 提交中击败了33.58%的用户
 ```
+
+## GitHub仓库
+
+[1. 两数之和](https://github.com/moshuying/leetcode-cn/)
