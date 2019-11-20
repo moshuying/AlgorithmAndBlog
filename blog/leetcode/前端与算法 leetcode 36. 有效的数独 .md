@@ -63,7 +63,7 @@
 舍去取整
 ## 解析
 
-js对map操作有较强的优势,既能通过`new Map`的方式建立一个hash表,也能直接构建对象的方式来操作,这里为了简化操作直接使用对象,行和列的操作没有难度,小宫格的操作要小心,整除时若带有小数部分,js默认四舍五入,其他语言默认舍去小数部分,小宫格计算方式`Math.floor((i / 3)) * 3 + Math.floor(j / 3)`中注意使用Math.floor舍去取整,判断是否重复时只需要判断对象的val值是否大于1即可
+js对map操作有较强的优势,既能通过`new Map`的方式建立一个hash表,也能直接构建对象的方式来操作,这里为了简化操作直接使用对象,行和列的操作没有难度,小宫格的操作要小心,整除时若带有小数部分,js默认四舍五入,其他语言默认舍去小数部分,小宫格计算方式`~~((i / 3)) * 3 + ~~(j / 3)`中注意使用~~舍去取整,判断是否重复时只需要判断对象的val值是否大于1即可
 
 ## 算法
 
@@ -72,35 +72,31 @@ js对map操作有较强的优势,既能通过`new Map`的方式建立一个hash�
  * @param {character[][]} board
  * @return {boolean}
  */
-// eslint-disable-next-line complexity
 var isValidSudoku = function (board) {
-    let [rows, columns, boxes] = [[], [], []];
-    for (let i = 0; i < 9; i++) {
-        rows[i] = {};// 行数据
-        columns[i] = {}; // 列数据
-        boxes[i] = {}; // 小宫格
-    }
-    // const fun = (r, x, y) => (r[x][y] ? r[x][y]++ : (r[x][y] = 1));
-    for (let i = 0; i < board.length; i++) {
-        for (let j = 0; j < board[i].length; j++) {
-            let num = board[i][j];
-            if (num !== '.') {
-                let n = parseInt(num, 10);
-                // js中1/3*3计算结果为1 但是按理说应该是0.999无限(浮点误差) 而java中1/3*3则取值为0,浮点数默认舍去0
-                let boxix = Math.floor((i / 3)) * 3 + Math.floor(j / 3);
-                // fun(rows, i, n);
-                // fun(columns, j, n);
-                // fun(boxes, boxix, n);
-                rows[i][n] ? rows[i][n]++ : (rows[i][n] = 1);
-                columns[j][n] ? columns[j][n]++ : (columns[j][n] = 1);
-                boxes[boxix][n] ? boxes[boxix][n]++ : (boxes[boxix][n] = 1);
-                if (rows[i][n] >= 2 || columns[j][n] >= 2 || boxes[boxix][n] >= 2) {
-                    return false;
-                }
-            }
+  let [rows, columns, boxes] = [[], [], []];
+  for (let i = 0; i < 9; i++) {
+    rows[i] = {};// 行数据
+    columns[i] = {}; // 列数据
+    boxes[i] = {}; // 小宫格
+  }
+  const fun = (r, x, y) => (r[x][y] ? r[x][y]++ : (r[x][y] = 1));
+  for (let i = 0; i < board.length; i++) {
+    for (let j = 0; j < board[i].length; j++) {
+      let num = board[i][j];
+      if (num !== '.') {
+        let n = parseInt(num, 10);
+        // js中1/3*3计算结果为1 但是按理说应该是0.999无限(浮点误差) 而java中1/3*3则取值为0,浮点数默认舍去0
+        let boxix = ~~((i / 3)) * 3 + ~~(j / 3);
+        fun(rows, i, n);
+        fun(columns, j, n);
+        fun(boxes, boxix, n);
+        if (rows[i][n] >= 2 || columns[j][n] >= 2 || boxes[boxix][n] >= 2) {
+          return false;
         }
+      }
     }
-    return true;
+  }
+  return true;
 };
 ```
 
@@ -120,4 +116,4 @@ output:true
 
 ## GitHub仓库
 
-[36. 有效的数独](https://github.com/moshuying/leetcode-cn/blob/master/leetcode/36.%20Valid%20Sudoku/index.js)
+[36. 有效的数独](https://github.com/moshuying/AlgorithmAndBlog)
