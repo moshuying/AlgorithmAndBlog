@@ -27,13 +27,13 @@
 
 [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
 # 概要
-这道题可以看成一道传统的映射题,我们需要知道每个值出现的次数,映射关系为<元素,出现次数>,首先统计数组1中所有元素出现的次数,再遍历数组2即可,如果数组2中的元素存在且大于1,则表示已经找到一个相同的了,如果值等于1,直接删除[[1]]
+这道题可以看成一道传统的映射题,我们需要知道每个值出现的次数,映射关系为<元素,出现次数>,首先统计数组1中所有元素出现的次数,再遍历数组2即可,如果数组2中的元素存在且大于1,则表示已经找到一个相同的了,如果值等于1,直接删除[1](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/wei-shi-yao-yong-map-by-vailing-2/)
 # 提示
 哈希表,双指针,暴力
 # 解析
 ## 解法一：哈希表
 时间复杂度O(n)
-先用Hashmap记录第一个数组中的元素【放在key】，和出现的次数【放在value】。然后再遍历第二个数组，如果找到对应元素，则添加这个元素到返回数组里。如果value值大于1，HashMap中的value值减 1，表示已经找到一个相同的了。如果value值等于1，则删除该元素。[[2]]
+先用Hashmap记录第一个数组中的元素【放在key】，和出现的次数【放在value】。然后再遍历第二个数组，如果找到对应元素，则添加这个元素到返回数组里。如果value值大于1，HashMap中的value值减 1，表示已经找到一个相同的了。如果value值等于1，则删除该元素。[2](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/js-xie-leetcode-by-zhl1232/)
 ## 解法二:双指针
 将两个数组排序,两个指针初始值为0,比较两个指针的元素是否相等相等则放到返回数组里,两个指针同时往前,不相等元素小的指针往前,如果相等,那肯定比较过的元素就没用了,两个指针往前,不相等的时候**因为较大的元素在较小的数组里存在**所以把元素小的数组指针往前
 ## 解法三:暴力法
@@ -106,7 +106,11 @@ var intersect = function (nums1, nums2) {
 执行用时 :56 ms, 在所有 javascript 提交中击败了99.55% 的用户
 内存消耗 :34.7 MB, 在所有 javascript 提交中击败了53.72%的用户
 ```
-<!-- leetcode,leetcode-cn,[J],350. 两个数组的交集 II, -->
-[1]:https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/wei-shi-yao-yong-map-by-vailing-2/
-<!-- leetcode,leetcode-cn,[J],350. 两个数组的交集 II, -->
-[2]:https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/solution/js-xie-leetcode-by-zhl1232/
+
+### GitHub仓库
+
+[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog)
+
+### 查看更多
+
+[查看更多题解](http://sfau.lt/bPbzVVJ)
