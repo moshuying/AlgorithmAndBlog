@@ -78,4 +78,8 @@ output:[ 'o', 'l', 'l', 'e', 'h' ]
 
 ### GitHub仓库
 
-[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog/tree/master/algorithm/leetcode/344.%20Reverse%20String)
+[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog)
+
+### 查看更多
+
+[查看更多题解](http://sfau.lt/bPbzVVJ)

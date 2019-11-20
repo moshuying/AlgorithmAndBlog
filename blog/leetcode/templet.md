@@ -38,4 +38,8 @@ output:
 
 ### GitHub仓库
 
-[]()
+[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog)
+
+### 查看更多
+
+[查看更多题解](http://sfau.lt/bPbzVVJ)
