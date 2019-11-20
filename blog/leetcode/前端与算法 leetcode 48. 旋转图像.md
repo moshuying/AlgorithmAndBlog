@@ -57,10 +57,6 @@
 最直接的想法是顺时针旋转90度，可以根据转置矩阵的性质，先得到转置矩阵，再进行列交换，即可实现这个简单的方法已经能达到最优的时间复杂度O(N^2)。
 ### 解法二:在单次循环中旋转 4 个矩形
 解法一使用了两次矩阵操作，但是有只使用一次操作的方法完成旋转。仔细思考每个元素在旋转中如何移动
-![](https://pic.leetcode-cn.com/12605efb60d2efc64e6ecfcf6562a98a49acb3ce696b0c1ad3da46ab8977fa16-48_angles.png)
-这提供给我们了一个思路，将给定的矩阵分成四个矩形并且将原问题划归为旋转这些矩形的问题。
-![](https://pic.leetcode-cn.com/7a684b207a95188ff6450e4724d6ee8bdf425fc483775a8e30082ed25060dac1-48_rectangles.png)
-现在的解法很直接 - 可以在第一个矩形中移动元素并且在 长度为 4 个元素的临时列表中移动它们。
 ## 算法
 
 ```js
@@ -124,4 +120,4 @@ output:[ [ 7, 4, 1 ], [ 8, 5, 2 ], [ 9, 6, 3 ] ]
 
 ## GitHub仓库
 
-[48. 旋转图像](https://github.com/moshuying/AlgorithmAndBlog/tree/master/algorithm/leetcode/48.%20Rotate%20Image)
+[48. 旋转图像](https://github.com/moshuying/AlgorithmAndBlog/)
