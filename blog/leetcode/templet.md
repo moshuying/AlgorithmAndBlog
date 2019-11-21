@@ -38,7 +38,7 @@ output:
 
 ### GitHub仓库
 
-[344. 反转字符串](https://github.com/moshuying/AlgorithmAndBlog)
+[查看github仓库 觉的骚也可以给个星星](https://github.com/moshuying/AlgorithmAndBlog)
 
 ### 查看更多
 
