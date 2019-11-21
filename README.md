@@ -3,20 +3,19 @@
 [访问不流畅点这里,两个仓库完全同步](https://gitee.com/moshuying/AlgorithmAndBlog)
 # 简介
 
-这里记录了前端中遇到的坑,学过的知识,当然不仅仅包含前端,因为现在前端开始全能化,有界面的无界面的都在做.所以这里或许什么都有
+刷leetcode的笔记 追求多种解法 击败90%+ 代码简洁易懂 -- 且骚 🌟 🌟 🌟
 
-有些操作已经是习惯了,比如git两个仓库同步,主要是因为github很多时候访问真的非常慢,配置好后
 # 小目标?
 
-写日志和博客是我长久以来的习惯了,也会一直保持下去,不用担心会弃坑,只要我还在从事计算机方面的工作,这个博客就不会不更新,只是会改改名字,比如叫后端心得笔记?前后端心得笔记?硬件及前后端心得笔记?
+刷多了就有各种坑了,没事深挖一下语法细节
 
-立个flag吧,就在明年结束前刷完100题,平均每天要刷2-3到题,再加上平时有繁重的工作,这个任务不算简单
-
-哈哈,反正不用担心弃坑啦,也欢迎各位大神帅哥美女不吝啬手里的小星星,对你有帮助是我更新最大的动力,欢迎提issues指出问题,也欢迎正确的求助方式
 
 ## 其他开源项目
+
 ### ddinit 一个钉钉的前端SDK
+
 可以直接`npm install ddinit`安装
+
 [文档点击这里](https://github.com/moshuying/ddinit)
 
 ## 博客分类
@@ -140,6 +139,6 @@ liunx我用的比较多,但是没有系统的去学习这些操作,部署项目�
 | [350. 两个数组的交集 II](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20350.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) |  **简单** | **排序,哈希,双指针,二分查找** |
 | [387. 字符串中的第一个唯一字符](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20387.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |  **简单** | **哈希表,字符串** |
 |[125. 验证回文串](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%20125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md)|**简单**|**双指针,字符串**|
-
+|[8. 字符串转换整数 (atoi)](https://github.com/moshuying/AlgorithmAndBlog/blob/master/blog/leetcode/%E5%89%8D%E7%AB%AF%E4%B8%8E%E7%AE%97%E6%B3%95%20leetcode%208.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0%20(atoi).md)|**中等**|**数组,字符串**|
 
 
