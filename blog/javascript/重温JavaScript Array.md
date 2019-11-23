@@ -62,6 +62,50 @@ Array.prototype // Array的属性和方法
 ## Array对象方法
 
 ### from() 从一个类似数组或可迭代对象创建一个新的,浅拷贝的数组实例
+
+#### Demo
+```js
+// 从字符串生成数组
+Array.from('123中文English')
+// output: ["1", "2", "3", "中", "文", "E", "n", "g", "l", "i", "s", "h"]
+
+// 生成数组后给每个数组元素执行mpFn方法
+Array.from([1, "2", "3", "中", "文", "E", "n", "g", "l", "i", "s", "h"],x=>x+1)
+//output: [2, "21", "31", "中1", "文1", "E1", "n1", "g1", "l1", "i1", "s1", "h1"]
+
+//从Set生成数组
+Array.from(new Set(['1','a','中']))
+// output: ["1", "a", "中"]
+
+// 从Map生成数组
+Array.from(new Map([[1,1],[2,'a'],[3,'中']]))
+// output: [[1,1],[2,'a'],[3,'中']]
+Array.from(new Map([[1,1],[2,'a'],[3,'中']]).values())
+// output: [1, "a", "中"]
+
+// 从类数组对象(arguments)生成数组
+function f() {return Array.from(arguments);}
+f(1,'a','中')
+// [1,'a','中']
+
+// 数组生成器
+const range = (start,stop,step) => Array.from({length:~~((stop-start)/step) +1},(_,i)=>start+(i*step));
+range(0,4,1);
+// [0,1,2,3,4]
+range('a'.charCodeAt(0),'z'.charCodeAt(0),1).map(x=>String.fromCharCode(x));
+// ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+```
+
+#### 参数
+> Array.from(arrayLike, mapFn, thisArg)
+* arrayLike 将要转换成数组的伪数组或可迭代对象
+* mapFn 可选 给新数组的每个元素执行该回调函数
+* thisArg 可选 执行`mapFn`时this对象
+
+#### 返回值
+
+一个新的数组实例
+
 ### pop() 	删除并返回数组的最后一个元素
 
 ### push() 	向数组的末尾添加一个或更多元素，并返回新的长度。
