@@ -1,7 +1,6 @@
 
 # 重温JavaScript Array
 
-===
 
 ## Array对象简介
 
@@ -61,9 +60,30 @@ Array.prototype // Array的属性和方法
 
 ## Array对象方法
 
-### from() 从一个类似数组或可迭代对象创建一个新的,浅拷贝的数组实例
+> 预览所有方法
 
-#### Demo
+|属性|作用|参数|
+| --- | --- | --- |
+| Array.from() | 从一个类似数组或可迭代对象创建一个新的，浅拷贝的数组实例。 | Array.from(arrayLike[, mapFn[, thisArg]]) |
+| Array.isArray()  | 用于确定传递的值是否是一个 Array。 | Array.isArray(obj) |
+| Array.of() | 创建一个具有可变数量参数的新数组实例，而不考虑参数的数量或类型。 | Array.of(element0[, element1[, ...[, elementN]]]) |
+| concat() | 用于合并两个或多个数组。此方法不会更改现有数组，而是返回一个新数组。 | var new_array = old_array.concat(value1[, value2[, ...[, valueN]]]) |
+|  |  |  |
+### Array.from()
+
+从一个类似数组或可迭代对象创建一个新的,浅拷贝的数组实例
+
+#### 参数
+
+> Array.from(arrayLike, mapFn, thisArg)
+* arrayLike 将要转换成数组的伪数组或可迭代对象
+* mapFn 可选 给新数组的每个元素执行该回调函数
+* thisArg 可选 执行`mapFn`时this对象
+
+#### 返回值
+
+一个新的数组实例
+
 ```js
 // 从字符串生成数组
 Array.from('123中文English')
@@ -96,47 +116,72 @@ range('a'.charCodeAt(0),'z'.charCodeAt(0),1).map(x=>String.fromCharCode(x));
 // ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 ```
 
+### Array.isArray()
+
+用于确定传递的值是否是一个Array
+
 #### 参数
-> Array.from(arrayLike, mapFn, thisArg)
-* arrayLike 将要转换成数组的伪数组或可迭代对象
-* mapFn 可选 给新数组的每个元素执行该回调函数
-* thisArg 可选 执行`mapFn`时this对象
+
+> Array.isArray(obj)
+* obj需要检测的值
 
 #### 返回值
 
-一个新的数组实例
+如果是`Array`,则为true,否则false
 
-### pop() 	删除并返回数组的最后一个元素
+```js
+// 以下函数调用都返回true
+Array.isArray([1,2,3])
+Array.isArray({1:1,2:2,3:3})
 
-### push() 	向数组的末尾添加一个或更多元素，并返回新的长度。
+// 以下函数调用都返回false
+Array.isArray(new Set())
+Array.isArray(new Map())
+Array.isArray(new Uint8Array(32))
+Array.isArray({ __proto__: Array.prototype });
+```
 
-### concat() 	连接两个或更多的数组，并返回结果。
+### Array.of() 创建一个具有可变数量参数的新数组实例,而不考虑参数的数量或类型
 
-### toString() 	把数组转换为字符串，并返回结果。
+>!﹝注意﹞Array.of()方法创建一个具有可变数量参数的新数组实例，而不考虑参数的数量或类型
 
-### shift() 	删除并返回数组的第一个元素
+#### 参数
 
-### unshift() 	向数组的开头添加一个或更多元素，并返回新的长度。
+> Array.of(element0[, element1[, ...[, elementN]]])
+* elementN 任意个参数,将按顺序成为返回数组中的元素
+####　返回值
 
+新的Array实例
 
-### splice() 	删除元素，并向数组添加新元素。
-### join() 	把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+```js
+Array.of(7); // [7]
+Array.of(1,2,3) // [1,2,3]
 
-### valueOf() 	返回数组对象的原始值
+Array(7); // [, , , , , ,]
+Array(1,2,3),// [1,2,3]
+```
 
-### reverse() 	颠倒数组中元素的顺序。
+### Array.prototype.concat()
 
-### slice() 	从某个已有的数组返回选定的元素
+方法用于合并两个或多个数组。此方法不会更改现有数组，而是返回一个新数组。
 
-### sort() 	对数组的元素进行排序
+#### 参数
+> var new_array = old_array.concat(value1[, value2[, ...[, valueN]]])
+* valueN 可选 将数组和/或值连接成新数组。如果省略了valueN参数参数，则concat会返回一个它所调用的已存在的数组的浅拷贝。详情请参阅下文描述。
 
-### toSource() 	返回该对象的源代码。
+#### 返回值
 
-### toLocaleString() 	把数组转换为本地数组，并返回结果。
+新的Array实例
 
-## Array方法
+#### 描述
+concat方法创建一个新的数组，它由被调用的对象中的元素组成，每个参数的顺序依次是该参数的元素（如果参数是数组）或参数本身（如果参数不是数组）。它不会递归到嵌套数组参数中。
 
-## TypedArray方法 [3]
+concat方法不会改变this或任何作为参数提供的数组，而是返回一个浅拷贝，它包含与原始数组相结合的相同元素的副本。 原始数组的元素将复制到新数组中，如下所示：
+
+* 对象引用（而不是实际对象）：concat将对象引用复制到新数组中。 原始数组和新数组都引用相同的对象。 也就是说，如果引用的对象被修改，则更改对于新数组和原始数组都是可见的。 这包括也是数组的数组参数的元素。
+* 数据类型如字符串，数字和布尔（不是String，Number 和 Boolean 对象）：concat将字符串和数字的值复制到新数组中。
+
+>注意：数组/值在连接时保持不变。此外，对于新数组的任何操作（仅当元素不是对象引用时）都不会对原始数组产生影响，反之亦然。
 
 <!-- W3C.[J].w3school.JavaScript Array 对象.2019(01) -->
 [1]:https://www.w3school.com.cn/jsref/jsref_obj_array.asp
