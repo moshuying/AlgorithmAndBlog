@@ -2,7 +2,8 @@
   // 自动修复
   "tslint.autoFixOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
+    "source.fixAll.tslint": true,
+    "source.fixAll.eslint": true
   },
   "fileheader.configObj": {
     "createFileTime": true, //设置为true则为文件新建时候作为date，否则注释生成时间为date
