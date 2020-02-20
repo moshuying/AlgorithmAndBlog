@@ -1,5 +1,5 @@
 node_modules
-algorithm/leetcode/*/main.exe
-algorithm/leetcode/*/main.class
+algorithm/leetcode/*/*.exe
+algorithm/leetcode/*/*.class
 algorithm/javaout
 blog/go
