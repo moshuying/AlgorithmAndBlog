@@ -513,3 +513,5 @@ a[href*="example.com"] {
 | :first-line   | 向文本的首行添加特殊样式。       | 1   |
 | :before       | 在元素之前添加内容。             | 2   |
 | :after        | 在元素之后添加内容。             | 2   |
+
+## css 黑魔法
