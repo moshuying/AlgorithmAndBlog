@@ -3,5 +3,6 @@ algorithm/leetcode/*/*.exe
 algorithm/leetcode/*/*.class
 algorithm/javaout
 blog/go
-
+*.out
+*.exe
 test.*

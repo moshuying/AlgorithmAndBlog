@@ -150,7 +150,7 @@
 
     </details>
     <details>
-      <summary>利用 CSS 的 content 属性 attr 抓取资料</summary>
+      <summary>[ 🧪 实验 ]利用 CSS 的 content 属性 attr 抓取资料</summary>
       <style>
         .fetching_data {
           width: 10rem;
@@ -158,11 +158,16 @@
           position: relative;
           margin: 0 auto;
         }
-
+        /* 
+          注意:  attr() 理论上能用于所有的CSS属性但目前支持的仅有伪元素的 content 属性，其他的属性和高级特性目前是实验性的
+          译者注：如果发现浏览器兼容表里attr()的高级用法依旧没有良好的支持的话，本文大部分内容都是纸上谈兵 
+          [mdn https://developer.mozilla.org/zh-CN/docs/Web/CSS/attr] 
+        */
         .fetching_data:hover:after {
-          content: attr(data-msg);
           position: absolute;
           font-size: attr(data-size);
+          content: attr(data-size);
+          color:attr(data-color);
           width: 200%;
           line-height: 30px;
           text-align: center;
@@ -171,8 +176,13 @@
           border: 1px solid green;
         }
       </style>
-      <div class="fetching_data" data-msg="Open this file in Github Desktop" data-size="15px">
+
+      <div class="fetching_data" data-msg="Open this file in Github Desktop" data-size="15px" data-color="#00f">
         hover
+      </div>
+      <br/>
+      <div class="fetching_data" data-msg="test box for function attr()" data-size="1" data-color="#000">
+        test
       </div>
     </details>
   </div>
