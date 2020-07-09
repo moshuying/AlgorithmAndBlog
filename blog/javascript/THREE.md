@@ -1,6 +1,6 @@
 ---
 title: THREE
-tags: javascript
+tags: THREE
 notebook: typejavascript
 ---
 
