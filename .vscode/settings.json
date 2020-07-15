@@ -2,4 +2,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": false
   },
+  "files.eol": "\n",
 }
